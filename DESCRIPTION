@@ -8,7 +8,7 @@ Description: This package basically is used to call a sample API and then check 
     was successful. And if we get some other code then that would mean we were not able to get any result or the data that we are trying to fetch does not exist.
 License: GPL-2
 Encoding: UTF-8
-LazyData: FALSE
+LazyData: true
 Imports: quantmod,stats,xts,jsonlite,httr
 Suggests:
    knitr
