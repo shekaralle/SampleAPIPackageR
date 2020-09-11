@@ -1,3 +1,12 @@
+#' Calls an API
+#'
+#' This function will call an API using GET and will display data if the request was successful with status code, and if the request was not successful it will show the error status code 404
+#' @param URL URL string
+#' @return NULL
+#' @export
+#' @examples
+#' ApiCall("http://api.open-notify.org/astros.json")
+
 require(httr)
 require(jsonlite)
 
